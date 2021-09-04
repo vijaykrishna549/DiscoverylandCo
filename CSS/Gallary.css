@@ -1,0 +1,455 @@
+.header-container{
+    display: flex;
+    height:60vh;
+    width:100vw;
+    /* border: 4px solid red; */
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/7383/jael-rodriguez-AkF5NT0sZy8-unsplash-1-1_210301_200939_35d31212c7a2d4dccdff99afa3f88af5.jpg");
+    background-position: center;
+}
+.logo{
+    display:flex;
+    margin-top: 4%;
+    /* border: 3px solid red; */
+    width:30%;
+    height:15%;
+    font-size:4vw;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    order: 0;
+}
+.navigation{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    /* border: 2px solid blue; */
+    width:50%;
+    height:12%;
+    margin-top: 4%;
+    color:white;
+    align-items: center;
+    order: 3;
+}
+
+.navigation:hover {
+    
+    background-color: blue;
+    text-decoration: underline;
+  }
+.about{
+    display:flex;
+    /* border: 2px solid green; */
+    color:white;
+    height : 15%;
+    width:30%;
+    margin-top: 20%;
+    margin-left: -15%;
+    /* margin-right: 400px; */
+    order: 1;
+    font-size:xx-large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image-cards{
+    display:flex;
+    height:60vh;
+    width:100vw;
+    border:4px solid yellow;
+    flex-direction: row;
+}
+
+.image1, .image2, .image3 {
+    display:flex;
+    width:33.33%;
+    /* height: 100%; */
+    height:75%;
+    border: solid black;
+    background-position: center;
+    /* flex-direction: row; */
+}
+.image1{
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/7390/Stocksy_txp3615512ad2e200_OriginalDelivery_1580323-1_210301_201432_d169f13de117664acdaa1543841b7c16.jpg");
+
+}
+
+.image2{
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/7386/img_210122_130752_1_d169f13de117664acdaa1543841b7c16.jpg");
+}
+
+.image3{
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/7394/preview-30_210301_201612_d169f13de117664acdaa1543841b7c16.jpeg");
+
+}
+.image-description {
+    display:flex;
+    /* background-color:black; */
+    color:white;
+    height:20vh;
+    width:100vw;
+}
+
+.description1, .description2, .description3{
+    display:flex;
+    width:33.33%;
+    height: 100%;
+    /* border: solid red; */
+    justify-content:center;
+    align-items:center;
+    font-size: large;
+
+}
+
+.image2-cards{
+    display:flex;
+    height:40vh;
+    width:100vw;
+    /* border:4px solid yellow; */
+    flex-direction: row;
+}
+
+
+.image4, .image5, .image6 {
+    display:flex;
+    width:33.33%;
+    height: 100%;
+    border: solid black;
+    background-position: center;
+    /* flex-direction: row; */
+}
+.image4{
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/7398/Playa-Grande14_DJI_0965-1-1_210301_201716_d169f13de117664acdaa1543841b7c16.jpg");
+
+}
+
+.image5{
+    background-image:url("https://dxaurk9yhilm4.cloudfront.net/images/7402/golf-club-house_d3867277feb154defec9b24a5714fadb-1_210301_201855_d169f13de117664acdaa1543841b7c16.jpg")
+
+}
+
+.image6{
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/7406/Wellness-gallery-1_11014826b3e36b3697374f276a89b517-2_210301_202121_d169f13de117664acdaa1543841b7c16.jpg");
+
+}
+
+
+.image2-description {
+    display:flex;
+    background-color:black;
+    color:white;
+    height:20vh;
+    width:100vw;
+}
+
+.description4, .description5, .description6{
+    display:flex;
+    width:33.33%;
+    height: 100%;
+    /* border: solid red; */
+    justify-content:center;
+    align-items:center;
+    font-size: large;
+
+}
+
+
+.footer-container{
+    display: flex;
+    /* align-content: center; */
+    flex-direction: row;
+    height: 60vh;
+    background-color: #161F1E;
+    color: white;
+    width:100vw;
+    /* border: 7px solid green; */
+}
+.logo2{
+    width: 50vw;
+}
+.section1{
+    display: flex;
+    /* border:5px solid blueviolet; */
+    width: 20%;
+    height:30%;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.section2{
+    display: flex;
+    width: 20%;
+    height: 40%;
+    flex-direction: column;
+    /* border: 5px solid blueviolet; */
+    justify-content:space-between;
+    align-items: center;
+    /* margin-left: 20%; */
+}
+.section3{
+    display: flex;
+    width: 20%;
+    height: 40%;
+    /* border: 5px solid blueviolet; */
+    flex-direction: column;
+    justify-content:space-between;
+    align-content: space-between;
+}
+
+
+
+.imageDescription{
+    display: flex;
+    flex-direction: row;
+    height:70vh;
+    width:100vw;
+    /* border : 5px solid green; */
+}
+.pic1, .pic2, .pic3{
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    width:33%;
+    /* border:4px soild red; */
+}
+
+.picContainer1, .picContainer2, .picContainer3{
+    height:75%;
+    width:100%;
+    border: 2px solid black;
+}
+.picContainer1{
+    background-image:url("https://dxaurk9yhilm4.cloudfront.net/images/7390/Stocksy_txp3615512ad2e200_OriginalDelivery_1580323-1_210301_201432_d169f13de117664acdaa1543841b7c16.jpg") ;
+    background-position: center;
+
+}
+.picContainer2{
+    background-position: center;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/7386/img_210122_130752_1_d169f13de117664acdaa1543841b7c16.jpg");
+
+}
+
+.picContainer3{
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/7394/preview-30_210301_201612_d169f13de117664acdaa1543841b7c16.jpeg");
+
+    background-position: center;
+}
+.descriptionContainer1, .descriptionContainer2, .descriptionContainer3{
+    /* height:25%;
+    width:100%;
+    font-size: 4vw; */
+    /* font-size: large; */
+    /* border: 2px solid red; */
+    /* color:white;
+    background-color: black; */
+
+
+    display:flex;
+    width:100%;
+    height: 25%;
+    /* border: solid red; */
+    background-color:black;
+    color:white;
+    /* justify-content:flex-start; */
+    font-size: 2vw;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.imageDescription2{
+    display: flex;
+    flex-direction: row;
+    height:70vh;
+    width:100vw;
+    /* border : 5px solid green; */
+}
+.pic4, .pic5, .pic6{
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    width:33%;
+    /* border:4px soild red; */
+}
+
+.picContainer4, .picContainer5, .picContainer6{
+    height:75%;
+    width:100%;
+    border: 2px solid black;
+}
+
+.descriptionContainer4, .descriptionContainer5, .descriptionContainer6{
+    
+    display:flex;
+    width:100%;
+    height: 25%;
+    /* border: solid red; */
+    color:white;
+    /* justify-content:flex-start; */
+    background-color: black;
+    font-size: 2vw;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+
+.picContainer4{
+    background-position: center;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/7398/Playa-Grande14_DJI_0965-1-1_210301_201716_d169f13de117664acdaa1543841b7c16.jpg");
+}
+.picContainer5{
+    background-position: center;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/7402/golf-club-house_d3867277feb154defec9b24a5714fadb-1_210301_201855_d169f13de117664acdaa1543841b7c16.jpg");
+}
+
+.picContainer6{
+    background-position: center;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/7406/Wellness-gallery-1_11014826b3e36b3697374f276a89b517-2_210301_202121_d169f13de117664acdaa1543841b7c16.jpg");
+}
+
+.cont1{
+    height: 100%;
+    width: 50%;
+    /* border:1px solid blue; */
+}
+.descriptionContainer1{
+    justify-content: center;
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 320px){
+
+    .imageDescription,.imageDescription2{
+        height:100vh;
+        width:100vw;
+        /* border:4px solid black; */
+        flex-direction:column;
+    }
+    .pic1, .pic2, .pic3, .pic4, .pic5, .pic6{
+        width:100%;
+        height:100%;
+    } 
+
+    .footer-container{
+        width:100vw;
+        flex-wrap:wrap;
+    }
+    .section1{
+        width:100%;
+    }
+    .section2{
+        width:40%;
+    }
+
+    .item1,.item2, .item3, .item4, .item5, .item6{
+        font-size: x-small;
+    }
+
+    .one, .two, .three, .four, .five{
+        font-size: x-small;
+    }
+
+    .foot1, .foot2, .foot3 {
+        font-size: x-small;
+    }
+
+}
+
+/* Media Query for i-Phone6 */
+
+@media only screen and (max-width: 375px) and (min-width: 320px){
+
+.imageDescription,.imageDescription2{
+    height:100vh;
+    width:100vw;
+    /* border:4px solid black; */
+    flex-direction:column;
+}
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6{
+    width:100%;
+    height:100%;
+} 
+
+.footer-container{
+    width:100vw;
+    flex-wrap:wrap;
+}
+.section1{
+    width:100%;
+}
+.section2{
+    width:40%;
+}
+
+.item1,.item2, .item3, .item4, .item5, .item6{
+    font-size: small;
+}
+
+.one, .two, .three, .four, .five{
+    font-size: small;
+}
+
+.foot1, .foot2, .foot3 {
+    font-size: small;
+}
+
+}
+
+
+/* Media Query for i-Pad */
+
+@media only screen and (max-width: 768px) and (min-width: 376px){
+
+  
+/* .imageDescription,.imageDescription2{
+    height:100vh;
+    width:100vw;
+    border:4px solid black;
+    flex-direction:column;
+}
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6{
+    width:100%;
+    height:100%;
+}  */
+
+.footer-container{
+    width:100vw;
+/*     flex-wrap:wrap; */
+}
+.section1{
+/*     width:100%; */
+}
+.section2{
+/*     height:30%; */
+/*     width:40%; */
+}
+
+.item1,.item2, .item3, .item4, .item5, .item6{
+    font-size: small;
+}
+
+.one, .two, .three, .four, .five{
+    font-size: small;
+}
+
+.foot1, .foot2, .foot3 {
+    font-size: small;
+}
+
+
+}
+
+
+
+
