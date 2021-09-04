@@ -1,0 +1,1054 @@
+.header-container{
+    display: flex;
+    height:100vh;
+    width:100vw;
+    /* border: 4px solid red; */
+    /* z-index: -1; */
+    position: relative;
+    /* flex-direction: row; */
+    background-position: center;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/806/YC-DSC_0007-2_2cbd80a0345be3b5a0b7649a1a2d057f.jpg");
+    
+}
+
+.logo{
+    display:flex;
+    margin-top: 2%;
+    /* border: 3px solid red; */
+    width:30%;
+    height:15%;
+    font-size:xx-large;
+    color:white;
+    /* color: #000000; */
+    align-items: center;
+    justify-content: center;
+    order: 0;
+    z-index: 1;
+}
+
+.video-container{
+    /* border:4px solid red; */
+   /* position: absolute;
+   min-width: 100%;
+   min-height: 100%; */
+   /* object-fit: cover; */
+   /* height: 100%; */
+   /* top: 0;
+   left: 0; */
+   /* right: 0;
+   bottom: 0; */
+}
+
+.navigation{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    /* border: 2px solid blue; */
+    width:70%;
+    height:12%;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 10%;
+    color:white;
+    /* color: #000000; */
+    z-index: 1;
+
+    align-items: center;
+    order: 3;
+}
+.about{
+    /* display:flex;
+    flex-direction: column;
+    border: 2px solid green;
+    color:white;
+    width:40%;
+    height : 25%; */
+    /* width:50%; */
+    /* text-align:justify; */
+    /* margin-top: 22%;
+    margin-left: 20%;
+    order: 1;
+    font-size: 3.5em;
+    z-index: 1;
+    position: absolute; */
+}
+
+.about1{
+    display:flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    color:white;
+    width:40%;
+    height : 25%;
+    /* width:50%; */
+    /* text-align:justify; */
+    margin-top: 22%;
+    margin-left: 20%;
+    order: 1;
+    font-size: 3.5em;
+    z-index: 1;
+    position: absolute;
+
+}
+
+.about2{
+    /* border-top: 1px solid red; */
+}
+
+
+.memorable{
+    /* display: flex; */
+    height:42vh;
+    width:100vw;
+    font-size: 3.5vw;
+    /* border: 3px solid red; */
+}
+
+.ourMission{
+    height:120vh;
+    width:100vw;
+    /* border: 2px solid yellowgreen; */
+}
+
+
+.exclusive{
+    display:flex;
+    height:120vh;
+    width:100vw;
+    /* border: 2px solid blue; */
+    flex-direction: row;
+}
+
+.exclusiveDescription{
+    display:flex;
+    height:48%;
+    width: 35%;
+    margin-top: 13%;
+    margin-left: 10%;
+    /* border: 2px solid green; */
+    flex-direction:column;
+
+}
+
+.exclusiveImage{
+    display:flex;
+    height:80%;
+    width: 50%;
+    /* border: 2px solid yellow; */
+    
+
+}
+
+.exclusiveImage1{
+    height:100%;
+    width:100%;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/163/What_we_do_intro_5ae402c9837860cd6e4f65e304b3a5fa.jpg");
+    
+}
+
+.line1, .line2{
+    font-size:xx-large;
+    /* border: 2px solid red; */
+}
+
+.para3{
+    color: #777;
+    opacity: 1;
+    /* font-size:0.9rem */
+    font-size:1.2em;
+    height: 30px;
+    
+    /* transform: translate(0px, 0px); */
+}
+
+.para2{
+    line-height: 2;
+}
+
+.boatImage{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    /* border: 3px solid black; */
+}
+
+.boatImage1{
+    height: 100%;
+    width: 90%;
+    /* border: 3px solid red; */
+    margin: 0 auto;
+    background-position: center;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/696/Bakers_Carousel3_62018727b9e8103a3d5d6c0701991eca.jpg");
+}
+.discoveryDifference{
+    display:flex;
+    height: 35vh;
+    width: 100vw;
+    /* border:2px solid yellowgreen; */
+}
+
+.diffText{
+    display:flex;
+    /* border:2px solid red; */
+    font-size:3vw;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.carouselContainer{
+    display:flex;
+    height:80vh;
+    width:100vw;
+    margin: auto;
+    overflow: hidden;
+    /* border:2px solid blue; */
+}
+
+.land, .family, .incomparable, .sustainable, .luxury{
+    display:flex;
+    color:white;
+    font-size:2.5vw;
+    margin-top: 75%;
+}
+
+.landDescription, .familyDescription, .incomparableDescription, .sustainableDescription, .luxuryDescription{
+    display:flex;
+    color:#F0FFF0;
+    font-size: 1.4vw;
+    /* margin-top: 5%; */
+}
+
+.carouselTrack{
+    display:flex;
+    height:100%;
+    width: calc(400px*10);
+    animation: reel 30s linear infinite;
+    /* padding: 10px; */
+}
+@keyframes reel {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-400px * 5));
+    }
+}
+
+.carouselImage1, .carouselImage2, .carouselImage3, .carouselImage4, .carouselImage5{
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    width: 400px;
+    border:8px solid white;
+}
+
+.carouselImage1{
+    background-position: center;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/529/Kukio-map1_190710_083646_397186feb8bd51bb37bc24fc2b9b500f.JPG");
+}
+.carouselImage2{
+    background-position: center;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/191/grass_397186feb8bd51bb37bc24fc2b9b500f.jpg");
+
+}
+
+.carouselImage3{
+    background-position: center;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/558/GallatinFork0217_Bedroom02_397186feb8bd51bb37bc24fc2b9b500f.jpg");
+
+}
+
+.carouselImage4{
+    background-position: center;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/6244/What_we_do_footer_carousel1_190805_141752_397186feb8bd51bb37bc24fc2b9b500f.jpg");
+
+}
+
+.carouselImage5{
+    background-position: center;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/170/What_we_do_footer_carousel2_397186feb8bd51bb37bc24fc2b9b500f.jpg");
+
+}
+.chairImage{
+    display: flex;
+    height:100vh;
+    width:100vw;
+    /* border: 2px solid green; */
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/159/What_we_do_design_hero_62018727b9e8103a3d5d6c0701991eca.jpg");
+    /* background-position: center; */
+}
+
+.discoveryDesign{
+    display: flex;
+    height: 140vh;
+    width: 100vw;
+    /* border: 4px solid yellow; */
+    flex-direction: row;
+}
+
+.discoveryDesignImage{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid red; */
+
+}
+
+.discoveryDesignDescription{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid green; */
+
+}
+
+.disImage{
+    height:60%;
+    width: 70%;
+    /* border: 2px solid blueviolet; */
+    background-position: center;
+    margin-top: 20%;
+    margin-left: 15%;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/157/What_we_do_design_1_2e8d9b92b1b20afb1d0f8d6550777aa2.jpg");
+}
+
+.disDescription{
+    display:flex;
+    flex-direction:column;
+    height:65%;
+    width: 75%;
+    /* border: 5px solid yellow; */
+    background-position: center;
+    margin-top: 35%;
+    /* margin-left: 8%; */
+}
+
+.disDescriptionHead{
+    height: 15%;
+    /* border:2px solid red; */
+    font-size: 2.2em;
+
+}
+
+.disDescriptionLines{
+    height:35%;
+    /* border:2px solid black; */
+    font-size: 1.2em;
+    
+
+}
+
+.disDescriptionImage1{
+    display:flex;
+    height:50%;
+    background-position: center;
+    background-image:url("https://dxaurk9yhilm4.cloudfront.net/images/158/What_we_do_design_2_2ab4534b0a2984e07d7caeca8808129f.jpg");
+
+    /* border: 2px solid red; */
+
+}
+
+.lakeImage1{
+    display: flex;
+    height:105vh;
+    width:100vw;
+    /* border:5px solid green; */
+
+}
+
+
+
+
+.lakeImage{
+    display: flex;
+    height:100%;
+    width:100%;
+    /* border:4px solid blue; */
+    background-position: center;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/890/YCGolfClubHouse0916_1288_62018727b9e8103a3d5d6c0701991eca.jpg");
+
+}
+
+.discoveryBuilder{
+    display: flex;
+    flex-direction: row;
+    height:140vh;
+    width:100vw;
+    /* border: 4px solid red; */
+}
+
+.descriptionSection{
+    display: flex;
+    height:100%;
+    width:50%;
+    /* border:3px solid yellow; */
+}
+
+
+.imageSection{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    /* border: 4px solid blue; */
+}
+
+.builderImage{
+    height:60%;
+    width: 70%;
+    /* border: 2px solid blueviolet; */
+    background-position: center;
+    margin-top: 20%;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/153/What_we_do_builders_1_2e8d9b92b1b20afb1d0f8d6550777aa2.jpg");
+    /* margin-left: 15%; */
+}
+
+.builderDescription{
+        display:flex;
+        flex-direction:column;
+        height:65%;
+        width: 75%;
+        /* border: 5px solid yellow; */
+        background-position: center;
+        margin-top: 35%;
+        margin-left: 7%;
+
+}
+
+
+
+.builderHead{
+    display: flex;
+    height:15%;
+    /* border: 2px solid green; */
+    font-size:2.5em;
+}
+
+.builderLines{
+    height:35%;
+    font-size: 1.2em;
+    /* border: 2px solid yellowgreen; */
+}
+
+.builderImage1{
+    height:50%;
+    /* border: 2px solid blue; */
+    background-position: center;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/155/What_we_do_builders_2_2ab4534b0a2984e07d7caeca8808129f.jpg");
+}
+
+
+
+
+.ourWorlds{
+    display: flex;
+    height:70vh;
+    width:100vw;
+    /* border: 4px solid blue; */
+    flex-direction: column;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/139/img_5dabbd1a34149dcaed83515ff1526a0f.jpg");
+}
+
+
+.logow1{
+    display: flex;
+     /* border: 1px solid red; */
+     justify-content:center;
+     align-items:center;
+   /* width:40%;
+    font-size: 1.5em;
+    margin-top: 70%;
+    margin-left: 80%; */
+
+}
+
+.logow{
+    /* border: 1px solid red; */
+    /* margin-top:13%; */
+    /* margin-left: 37%; */
+    /* justify-content:center; */
+    /* align-items:center; */
+    color: white;
+    font-size:2.5em;
+
+}
+
+.ourworldsBtn{
+    display: flex;
+   
+    /* margin-left: 41%; */
+    justify-content:center;
+    /* border: 4px solid yellow; */
+}
+
+.ourworldsButton{
+    background-color: transparent;
+    color:white;
+    padding: 14px 28px;
+    font-size: 16px;
+    border: 1px solid white;
+}
+
+
+
+.footer-container{
+    display: flex;
+    /* align-content: center; */
+    flex-direction: row;
+    height: 63vh;
+    background-color: #000000;
+    color: white;
+    width:100vw;
+    /* border: 7px solid green; */
+}
+.logo2{
+    width: 50vw;
+}
+.section1{
+    display: flex;
+    /* border:5px solid blueviolet; */
+    width: 20%;
+    height:30%;
+    flex-direction: column;
+    justify-content:space-between;
+    margin-top: 5%;
+}
+
+.section2{
+    display: flex;
+    width: 20%;
+    height: 40%;
+    flex-direction: column;
+    /* border: 5px solid blueviolet; */
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 5%;
+    /* margin-left: 20%; */
+}
+.section3{
+    display: flex;
+    width: 20%;
+    height: 40%;
+    margin-top: 5%;
+    /* border: 5px solid blueviolet; */
+    flex-direction: column;
+    justify-content:space-between;
+    align-content: space-between;
+}
+
+
+/* Media Query for Iphone 5 */
+
+
+@media only screen and (max-width: 320px) {
+    .header-container {
+        flex-direction:column;
+      /* border: 4px solid red; */
+    }
+    #about{
+        margin-top: 70%;
+        width:50%;
+    }
+
+    .about2{
+        font-size:0.5em;
+    }
+    .about3{
+        font-size:0.5em;
+    }
+    .boatImage{
+        height:40vh;
+    }
+
+    .discoveryDifference{
+        border:2px solid green;
+        width:95vw;
+        height:20vh;
+    }
+    .diffText{
+        border:2px solid red;
+        font-size:8vw;
+        margin:auto;
+    }
+    .land, .family, .incomparable, .sustainable, .luxury{
+        font-size:8vw;
+    }
+
+    .landDescription, .familyDescription, .incomparableDescription, .sustainableDescription, .luxuryDescription{
+      font-size:5vw; 
+    }
+
+    .carouselImage1, .carouselImage2, .carouselImage3, .carouselImage4, .carouselImage5{
+     height:75%; 
+     width:80vw
+      
+    }
+
+    .memorable{
+        font-size:7vw;
+        /* border:4px solid green; */
+        height:50vh;
+        width:100vw;
+        /* background-color: red; */
+    }
+    .exclusive{
+        flex-direction:column-reverse;
+    }
+    .exclusiveDescription{
+        width:100vw;
+    }
+    .exclusiveImage{
+        height:50vh;
+        width:80vw;
+        margin:auto;
+    }
+    .para3{
+        font-size:10px;
+    }
+
+    .chairImage{
+        height:50vh;
+        width:80vw;
+        background-position:center;
+    }
+
+    .discoveryDesign{
+        flex-direction:column;
+    }
+    .disDescriptionImage1{
+        display:none;
+    }
+
+    .disDescriptionHead{
+        height:20vh;
+         /* font-size: */
+     }
+     .discoveryDesignDescription{
+         width:100vw;
+     }
+
+     .disDescriptionLines{
+        height:100vh;
+    }
+
+    .discoveryDesignImage{
+        width:100vw;
+    }
+    .disImage{
+        height:65vh;
+        width:80%;
+      
+    }
+    
+    .lakeImage{
+        margin-top:95%;
+        height:60vh;
+        width:80vw;
+    }
+
+    .discoveryBuilder{
+        flex-direction:column;
+        /* border: 5px solid blue; */
+        height:80vh;
+    }
+    .builderHead{
+        /* border:2px solid green; */
+        width:80vw;
+        height:18vh;
+    }
+    .builderLines{
+        /* border:4px solid red;  */
+        width:100vw;
+        height:100vh;
+    }
+    .builderImage1{
+        display:none;
+    }
+    .builderImage{
+        height:60vh;
+        width:80vw;
+        margin:auto;
+    }
+    .imageSection{
+        height:60vh;
+        width:80vw;
+        margin:auto;
+    }
+    .ourWorlds{
+        margin-top:120%;
+        height:50vh;
+        width:100vw;
+    }
+    .footer-container{
+        width:100vw;
+        flex-wrap:wrap;
+    }
+    .section1{
+        width:100%;
+    }
+    .section2{
+        width:40%;
+    }
+
+    .item1,.item2, .item3, .item4, .item5, .item6{
+        font-size: x-small;
+    }
+
+    .one, .two, .three, .four, .five{
+        font-size: x-small;
+    }
+
+    .foot1, .foot2, .foot3 {
+        font-size: x-small;
+    }
+}
+
+
+
+/* Media Queries for Iphone 6*/
+
+@media only screen and (max-width: 375px) and (min-width: 321px){
+    .header-container {
+        flex-direction:column;
+      /* border: 4px solid red; */
+    }
+    #about{
+        margin-top: 70%;
+        width:50%;
+    }
+
+    .about2{
+        font-size:0.5em;
+    }
+    .about3{
+        font-size:0.5em;
+    }
+    .boatImage{
+        height:40vh;
+    }
+
+    .discoveryDifference{
+        border:2px solid green;
+        width:95vw;
+        height:20vh;
+    }
+    .diffText{
+        border:2px solid red;
+        font-size:7vw;
+    }
+    .land, .family, .incomparable, .sustainable, .luxury{
+        font-size:6vw
+    }
+
+    .landDescription, .familyDescription, .incomparableDescription, .sustainableDescription, .luxuryDescription{
+      font-size:5vw  
+    }
+
+    .carouselImage1, .carouselImage2, .carouselImage3, .carouselImage4, .carouselImage5{
+     height:75%   
+    }
+
+    .memorable{
+        font-size:7vw;
+        /* border:4px solid green; */
+        height:50vh;
+        width:100vw;
+        /* background-color: red; */
+    }
+    .exclusive{
+        flex-direction:column-reverse;
+    }
+    .exclusiveDescription{
+        width:100vw;
+    }
+    .exclusiveImage{
+        height:50vh;
+        width:80vw;
+        margin:auto;
+    }
+    .para3{
+        font-size:10px;
+    }
+
+    .chairImage{
+        height:50vh;
+        width:80vw;
+        margin:auto;
+        background-position:center;
+    }
+
+    .discoveryDesign{
+        flex-direction:column;
+    }
+    .disDescriptionImage1{
+        display:none;
+    }
+
+    .disDescriptionHead{
+        height:20vh;
+         /* font-size: */
+     }
+     .discoveryDesignDescription{
+         width:100vw;
+         height:80vh;
+         margin-left:10%;
+     }
+
+     .disDescriptionLines{
+        height:100vh;
+    }
+
+    .discoveryDesignImage{
+        width:90vw;
+    }
+    .disImage{
+        height:65vh;
+        width:100%;
+        margin-right:10%
+      
+    }
+    
+    .lakeImage{
+        margin-top:95%;
+        height:60vh;
+        width:80vw;
+        margin-left:10%
+    }
+
+    .discoveryBuilder{
+        flex-direction:column;
+        /* border: 5px solid blue; */
+        height:80vh;
+    }
+    .builderHead{
+        /* border:2px solid green; */
+        width:80vw;
+        height:18vh;
+    }
+    .builderLines{
+        /* border:4px solid red;  */
+        width:100vw;
+        height:100vh;
+    }
+    .builderImage1{
+        display:none;
+    }
+    .builderImage{
+        height:60vh;
+        width:80vw;
+        margin:auto;
+    }
+    .imageSection{
+        height:60vh;
+        width:80vw;
+        margin:auto;
+    }
+    .ourWorlds{
+        margin-top:120%;
+        height:50vh;
+        width:100vw;
+    }
+    .footer-container{
+        width:100vw;
+        flex-wrap:wrap;
+    }
+    .section1{
+        width:90%;
+        margin-left:10%
+    }
+    .section2{
+        width:40%;
+    }
+
+    .item1,.item2, .item3, .item4, .item5, .item6{
+        font-size: small;
+    }
+
+    .one, .two, .three, .four, .five{
+        font-size: small;
+    }
+
+    .foot1, .foot2, .foot3 {
+        font-size: small;
+    }
+}
+
+
+/* Media Queries for i-Pad */
+
+
+@media only screen and (max-width: 768px) and (min-width: 376px){
+    .header-container {
+        flex-direction:column;
+      /* border: 4px solid red; */
+    }
+    #about{
+        margin-top: 70%;
+        width:50%;
+    }
+
+    .about2{
+        font-size:7vw;
+    }
+    .about3{
+        font-size:7vw;
+    }
+    .boatImage{
+        height:40vh;
+    }
+
+    .discoveryDifference{
+        border:2px solid green;
+        width:95vw;
+        height:20vh;
+    }
+    .diffText{
+        border:2px solid red;
+        font-size:5vw;
+    }
+    .land, .family, .incomparable, .sustainable, .luxury{
+        font-size:4vw
+    }
+
+    .landDescription, .familyDescription, .incomparableDescription, .sustainableDescription, .luxuryDescription{
+      font-size:3vw  
+    }
+
+    .carouselImage1, .carouselImage2, .carouselImage3, .carouselImage4, .carouselImage5{
+     height:75%   
+    }
+
+    .memorable{
+        font-size:6vw;
+        /* border:4px solid green; */
+        height:50vh;
+        width:100vw;
+        /* background-color: red; */
+    }
+    .exclusive{
+        flex-direction:column;
+    }
+    .exclusiveDescription{
+        width:100vw;
+        margin:auto;
+    }
+    .exclusiveImage{
+        height:50vh;
+        width:80vw;
+        margin:auto;
+    }
+    .para3{
+        font-size:4vw;
+    }
+
+    .chairImage{
+        margin-top:100%;
+        height:50vh;
+        width:80vw;
+        margin:auto;
+        background-position:center;
+    }
+
+    .discoveryDesign{
+        flex-direction:column-reverse;
+        height:100vh;
+        margin-top:100%;
+/*         width:10vh; */
+    }
+    .disDescriptionImage1{
+        display:none;
+    }
+
+    .disDescriptionHead{
+        /* border:2px solid green; */
+        height:12vh;
+         /* font-size: */
+     }
+     .discoveryDesignDescription{
+         width:100vw;
+         height:100vh;
+         /* border:4px solid blue; */
+/*          height:80vh; */
+/*          margin-left:10%; */
+     }
+
+     .disDescriptionLines{
+         font-size:3vw;;
+        height:100vh;
+    }
+
+    .discoveryDesignImage{
+        width:90vw;
+    }
+    .disImage{
+        height:65vh;
+        width:100%;
+        margin-right:10%
+      
+    }
+    
+    .lakeImage{
+        margin-top:95%;
+        height:60vh;
+        width:80vw;
+        margin-left:10%
+    }
+
+    .discoveryBuilder{
+        flex-direction:column;
+        /* border: 5px solid blue; */
+        height:80vh;
+        width:100vw;
+    }
+    .builderHead{
+        /* border:2px solid green; */
+        width:80vw;
+        height:18vh;
+    }
+    .builderLines{
+        /* border:4px solid red;  */
+        width:100vw;
+        height:100vh;
+        font-size:4vw;
+    }
+    .builderImage1{
+        display:none;
+    }
+    .builderImage{
+        height:60vh;
+        width:80vw;
+        margin:auto;
+    }
+    .imageSection{
+        height:60vh;
+        width:80vw;
+        margin:auto;
+    }
+    .ourWorlds{
+        margin-top:120%;
+        height:50vh;
+        width:100vw;
+    }
+    .footer-container{
+        width:100vw;
+        flex-wrap:wrap;
+    }
+    .section1{
+        width:90%;
+        margin-left:10%
+    }
+    .section2{
+        width:40%;
+    }
+
+    .item1,.item2, .item3, .item4, .item5, .item6{
+        font-size: small;
+    }
+
+    .one, .two, .three, .four, .five{
+        font-size: small;
+    }
+
+    .foot1, .foot2, .foot3 {
+        font-size: small;
+    }
+}
