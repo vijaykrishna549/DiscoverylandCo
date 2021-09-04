@@ -1,0 +1,516 @@
+.header-container{
+    display: flex;
+    height:100vh;
+    width:100vw;
+    /* border: 4px solid red; */
+    /* z-index: -1; */
+    position: relative;
+    /* flex-direction: row; */
+    
+}
+.logo{
+    display:flex;
+    margin-top: 40px;
+    /* border: 3px solid red; */
+    width:30%;
+    height:15%;
+    font-size:xx-large;
+    color:white;
+    /* color: #000000; */
+    align-items: center;
+    justify-content: center;
+    order: 0;
+    z-index: 1;
+}
+
+.video-container{
+    /* border:4px solid red; */
+   position: absolute;
+   min-width: 100%;
+   min-height: 100%;
+   /* object-fit: cover; */
+   /* height: 100%; */
+   /* top: 0;
+   left: 0; */
+   right: 0;
+   bottom: 0;
+}
+
+.video{
+    object-fit: cover;
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+.navigation{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    /* border: 2px solid blue; */
+    width:70%;
+    height:12%;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 15%;
+    color:white;
+    /* color: #000000; */
+    z-index: 1;
+
+    align-items: center;
+    order: 3;
+}
+.about{
+    display:flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    color:white;
+    /* height : 25%; */
+    /* width:50%; */
+    text-align:justify;
+    margin-top: 20%;
+    /* margin-left: 10%; */
+    order: 1;
+    font-size: 3em;
+    z-index: 1;
+}
+
+.memorable{
+    height:42vh;
+    width:100vw;
+    font-size: 2.5em;
+    /* border: 3px solid red; */
+}
+
+.exclusive{
+    display:flex;
+    height:120vh;
+    width:100vw;
+    /* border: 2px solid blue; */
+    flex-direction: row;
+}
+
+.exclusiveDescription{
+    display:flex;
+    height:48%;
+    width: 35%;
+    margin-top: 13%;
+    margin-left: 10%;
+    /* border: 2px solid green; */
+    flex-direction:column;
+
+}
+
+.exclusiveImage{
+    display:flex;
+    height:80%;
+    width: 50%;
+    /* border: 2px solid yellow; */
+    
+
+}
+
+.exclusiveImage1{
+    height:100%;
+    width:100%;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/899/Scuba_5ae402c9837860cd6e4f65e304b3a5fa.jpg");
+    
+}
+
+.line1, .line2{
+    font-size:xx-large;
+    /* border: 2px solid red; */
+}
+
+.para3{
+    color: #777;
+    opacity: 1;
+    /* font-size:0.9rem */
+    font-size:medium;
+    height: 30px;
+    
+    /* transform: translate(0px, 0px); */
+}
+
+.para2{
+    line-height: 2;
+}
+
+.golf{
+    display: flex;
+    height:130vh;
+    width: 100vw;
+    position: relative;
+    border: 3px solid black;
+    background-color:lightgray;
+    /* flex-direction: row; */
+}
+
+.bg1{
+    /* display:flex; */
+    position: absolute;
+    /* height: 500px;
+    width: 700px; */
+    height: 500px;
+    width: 750px;
+    background-color:grey;
+    top: 350px;
+    left: 300px;
+    z-index: 1;
+}
+
+.golfImage{
+  
+
+}
+
+.golfImage1{
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/533/Golf3_4d32d1f061062da257f8ac1083a047ac.jpg");
+    height:100%;
+    width:100%;
+    position: absolute;
+    z-index: 2;
+    height: 700px;
+    width: 1000px;
+    /* left: 200px; */
+    right: 365px;
+    top: 100px;
+    /* border:1px solid red; */
+
+}
+
+
+.golfDescription{
+    position: absolute;
+    z-index: 3;
+    height: 450px;
+    background-color: white;
+    width: 40%;
+    /* border:2px solid yellowgreen; */
+    right:150px;
+    top:248px;
+}
+
+.golfpara1{
+    font-size: 2.5em;
+    color: #777;
+    margin-left: 45px;
+}
+
+.golfpara3{
+    color: #777;
+    font-size: medium;
+    opacity: 1;
+    font-stretch: expanded;
+    height: 40px;
+    margin-left: 45px;
+    /* align-content: center; */
+}
+
+.golfDescription2{
+    /* border: 2px solid brown; */
+    height:40%;
+}
+.golfBtn{
+    /* border: 4px solid green; */
+
+}
+
+.golfButton{
+    /* border: 2px solid red; */
+    margin-top: 82px;
+    margin-left: 20px;
+    background-color: white;
+    color:light black;
+    padding: 14px 28px;
+    font-size: 16px;
+}
+
+
+
+
+.outdoorPersuits {
+    height:130vh;
+    width:100vw;
+    border: 4px solid blue;
+    position: relative;
+}
+.bg3{
+       /* display:flex; */
+       position: absolute;
+       /* height: 500px;
+       width: 700px; */
+       height: 500px;
+       width: 750px;
+       background-color:grey;
+       z-index: 1;
+}
+
+
+
+.wellness{
+    display: flex;
+    height:130vh;
+    width: 100vw;
+    position: relative;
+    border: 3px solid black;
+    background-color:lightgray;
+    /* flex-direction: row; */
+}
+
+.bg2{
+    /* display:flex; */
+    position: absolute;
+    /* height: 500px;
+    width: 700px; */
+    height: 500px;
+    width: 750px;
+    background-color:grey;
+    top: 350px;
+    left: 300px;
+    z-index: 1;
+}
+
+.wellnessImage{
+  
+
+}
+
+.wellnessImage1{
+    /* background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/533/wellness3_4d32d1f061062da257f8ac1083a047ac.jpg"); */
+    height:100%;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/145/Wellness_image_4d32d1f061062da257f8ac1083a047ac.jpg");
+    width:100%;
+    position: absolute;
+    z-index: 2;
+    height: 700px;
+    width: 1000px;
+    /* left: 200px; */
+    right: 365px;
+    top: 100px;
+    /* border:1px solid red; */
+
+}
+
+
+.wellnessDescription{
+    position: absolute;
+    z-index: 3;
+    height: 450px;
+    background-color: white;
+    width: 40%;
+    /* border:2px solid yellowgreen; */
+    right:150px;
+    top:248px;
+}
+
+.wellnesspara1{
+    font-size: 2.5em;
+    color: #777;
+    margin-left: 45px;
+}
+
+.wellnesspara3{
+    color: #777;
+    font-size: medium;
+    opacity: 1;
+    font-stretch: expanded;
+    height: 40px;
+    margin-left: 45px;
+    /* align-content: center; */
+}
+
+.wellnessDescription2{
+    /* border: 2px solid brown; */
+    height:40%;
+}
+.wellnessBtn{
+    /* border: 4px solid green; */
+
+}
+
+.wellnessButton{
+    /* border: 2px solid red; */
+    margin-top: 82px;
+    margin-left: 20px;
+    background-color: white;
+    color:light black;
+    padding: 14px 28px;
+    font-size: 16px;
+}
+
+.ourWorlds{
+    display: flex;
+    height:70vh;
+    width:100vw;
+    /* border: 4px solid blue; */
+    flex-direction: column;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/139/img_5dabbd1a34149dcaed83515ff1526a0f.jpg");
+}
+
+
+.logow1{
+    /* border: 1px solid red;
+    width:40%;
+    font-size: 1.5em;
+    margin-top: 70%;
+    margin-left: 80%; */
+
+}
+
+.logow{
+    /* border: 1px solid red; */
+    margin-top:13%;
+    margin-left: 37%;
+    color: white;
+    font-size:2.5em;
+
+}
+
+.ourworldsButton{
+    background-color: transparent;
+    color:white;
+    padding: 14px 28px;
+    font-size: 16px;
+    /* border: 5px solid red; */
+    margin-left: 41%;
+}
+
+
+
+
+.outdoorPersuits{
+    display: flex;
+    height:130vh;
+    width: 100vw;
+    position: relative;
+    border: 3px solid black;
+    background-color:lightgray;
+    /* flex-direction: row; */
+}
+
+.bg3{
+    /* display:flex; */
+    position: absolute;
+    /* height: 500px;
+    width: 700px; */
+    height: 500px;
+    width: 750px;
+    background-color:grey;
+    top: 350px;
+    left: 300px;
+    z-index: 1;
+}
+
+.outdoorPersuitsImage{
+  
+
+}
+
+.outdoorPersuitsImage1{
+    /* background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/533/outdoorPersuits3_4d32d1f061062da257f8ac1083a047ac.jpg"); */
+    height:100%;
+    /* background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/145/outdoorPersuits_image_4d32d1f061062da257f8ac1083a047ac.jpg"); */
+    width:100%;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/144/OD_image_4d32d1f061062da257f8ac1083a047ac.jpg");
+    position: absolute;
+    z-index: 2;
+    height: 700px;
+    width: 1000px;
+    /* left: 200px; */
+    left: 365px;
+    top: 100px;
+    /* border:1px solid red; */
+
+}
+
+
+.outdoorPersuitsDescription{
+    position: absolute;
+    z-index: 3;
+    height: 450px;
+    background-color: white;
+    width: 40%;
+    /* border:2px solid yellowgreen; */
+    left:150px;
+    top:248px;
+}
+
+.outdoorPersuitspara1{
+    font-size: 2.5em;
+    color: #777;
+    margin-left: 45px;
+}
+
+.outdoorPersuitspara3{
+    color: #777;
+    font-size: medium;
+    opacity: 1;
+    font-stretch: expanded;
+    height: 40px;
+    margin-left: 45px;
+    /* align-content: center; */
+}
+
+.outdoorPersuitsDescription2{
+    /* border: 2px solid brown; */
+    height:40%;
+}
+.outdoorPersuitsBtn{
+    /* border: 4px solid green; */
+
+}
+
+.outdoorPersuitsButton{
+    /* border: 2px solid red; */
+    margin-top: 82px;
+    margin-left: 20px;
+    background-color: white;
+    color:light black;
+    padding: 14px 28px;
+    font-size: 16px;
+}
+    
+
+.footer-container{
+    display: flex;
+    /* align-content: center; */
+    flex-direction: row;
+    height: 63vh;
+    background-color: #000000;
+    color: white;
+    width:100vw;
+    /* border: 7px solid green; */
+}
+.logo2{
+    width: 50vw;
+}
+.section1{
+    display: flex;
+    /* border:5px solid blueviolet; */
+    width: 20%;
+    height:30%;
+    flex-direction: column;
+    justify-content:space-between;
+    margin-top: 5%;
+}
+
+.section2{
+    display: flex;
+    width: 20%;
+    height: 40%;
+    flex-direction: column;
+    /* border: 5px solid blueviolet; */
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 5%;
+    /* margin-left: 20%; */
+}
+.section3{
+    display: flex;
+    width: 20%;
+    height: 40%;
+    margin-top: 5%;
+    /* border: 5px solid blueviolet; */
+    flex-direction: column;
+    justify-content:space-between;
+    align-content: space-between;
+}
