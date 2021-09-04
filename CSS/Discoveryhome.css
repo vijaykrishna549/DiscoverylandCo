@@ -1,0 +1,534 @@
+.header-container{
+    display: flex;
+    height:100vh;
+    width:100vw;
+    /* border: 4px solid red; */
+    /* z-index: -1; */
+    position: relative;
+    
+}
+.logo{
+    display:flex;
+    margin-top: 40px;
+    /* border: 3px solid red; */
+    width:30%;
+    height:15%;
+    font-size:xx-large;
+    color:white;
+    /* color: #000000; */
+    align-items: center;
+    justify-content: center;
+    order: 0;
+    z-index: 1;
+}
+
+.video-container{
+    /* border:4px solid red; */
+   position: absolute;
+   min-width: 100%;
+   min-height: 100%;
+   /* object-fit: cover; */
+   /* height: 100%; */
+   /* top: 0;
+   left: 0; */
+   right: 0;
+   bottom: 0;
+}
+
+.video{
+    object-fit: cover;
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+.navigation{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    /* border: 2px solid blue; */
+    width:70%;
+    height:12%;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 15%;
+    color:white;
+    /* color: #000000; */
+    z-index: 1;
+
+    align-items: center;
+    order: 3;
+}
+
+a:link{
+    /* color: green; */
+}
+
+a:visited {
+    /* background-color: yellow;
+    border-color: hotpink;
+    color: hotpink; */
+  }
+
+.item{
+    /* border-bottom: 1px solid red; */
+}
+.about{
+    display:flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    color:white;
+    height : 15%;
+    width:30%;
+    margin-top: 200px;
+    margin-left: -15%;
+    /* margin-right: 400px; */
+    order: 1;
+    font-size:xx-large;
+    z-index: 1;
+}
+
+.about:hover {
+    
+    /* background-color: blue; */
+    text-decoration: underline;
+  }
+.welcome{
+    display:flex;
+    height: 135vh;
+    width: 100vw;
+    /* border:2px solid blue; */
+    flex-direction:row;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/287/background_imagev2_3580431e48aedf97dcedf972d1481942.jpg");
+    background-position: center;
+}
+
+.welcomeLeft{
+    display:flex;
+    flex-direction:column;
+    margin-top: 7%;
+    height:90%;
+    width:40%;
+    margin-left:7%;
+    /* border:3px solid red; */
+}
+.welcomeHead{
+    display: flex;
+    height:12%;
+    width:100%;
+    /* border:3px solid green; */
+}
+.welcomeHead1{
+    display: flex;
+    font-size: 3vw;
+    
+    /* width:100%; */
+    /* border: 2px solid blue; */
+}
+
+.welcomeDescription{
+    display:flex;
+    height:35%;
+    width:100%;
+    /* border:3px solid violet; */
+    font-size:1.6vw;
+}
+
+.welcomeImage{
+    display:flex;
+    height:50%;
+    width:100%;
+    /* border:3px solid blue; */
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/27/DriftwoodDevelopment_JessicaJohnson_March2019_52_df8586bb4c14d18f77324f7452f392cd.jpg");
+    background-position: center;
+    background-position-x:550px;
+}
+
+
+.welcomeRight{
+    margin-top: 7%;
+    display:flex;
+    height:90%;
+    width:50%;
+    /* border:3px solid green; */
+}
+
+.wmainImage{
+    display:flex;
+    height:73%;
+    width:70%;
+    margin-left:15%;
+    /* border: 2px solid brown; */
+    background-position: center center;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/275/Home_76fe09b415dcada4f46ba4114338562c.jpg");
+    background-position-x:center center;
+    /* transform: scaleX(1.5); */
+}
+
+.explore{
+    /* border:2px solid green; */
+    width:100vw;
+    height:25vh;
+}
+
+.exploreText{
+    /* border:2px solid red; */
+    /* height:10%; */
+    font-size:3.1vw;
+    margin-left: 10%;
+}
+
+
+.carouselContainer{
+    display:flex;
+    height:80vh;
+    width:100vw;
+    margin: auto;
+    overflow: hidden;
+    /* border:2px solid blue; */
+}
+
+.land, .family, .incomparable, .sustainable, .luxury, .coco, .drift, .grand, .summit, .costa{
+    display:flex;
+    color:white;
+    font-size:2.5vw;
+    margin-top: 75%;
+}
+
+.landDescription, .familyDescription, .incomparableDescription, .sustainableDescription, .luxuryDescription, .cocoDescription, .driftDescription, .grandDescription, .summitDescription, .costaDescription{
+    display:flex;
+    color:#F0FFF0;
+    font-size: 1.4vw;
+    /* margin-top: 5%; */
+}
+
+.carouselTrack{
+    display:flex;
+    height:100%;
+    width: calc(400px*20);
+    animation: reel 60s linear infinite;
+    /* padding: 10px; */
+}
+@keyframes reel {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-400px * 10));
+    }
+}
+
+.carouselImage1, .carouselImage2, .carouselImage3, .carouselImage4, .carouselImage5, .carouselImage6, .carouselImage7, .carouselImage8, .carouselImage9, .carouselImage10{
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    width: 400px;
+    border:8px solid white;
+}
+
+.carouselImage1{
+    background-position: center;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/617/clubhouse-copy_397186feb8bd51bb37bc24fc2b9b500f.jpg");
+}
+.carouselImage2{
+    background-position: center;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/695/Bakers_Marina_397186feb8bd51bb37bc24fc2b9b500f.jpg");
+
+}
+
+.carouselImage3{
+    background-position: center;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/203/ElDorado-carousel_397186feb8bd51bb37bc24fc2b9b500f.jpg");
+
+}
+
+.carouselImage4{
+    background-position: center;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/6654/Silo_Andy-Carlson_golf_October-2019_DJI_0020-copycrop_397186feb8bd51bb37bc24fc2b9b500f.jpg");
+
+}
+
+.carouselImage5{
+    background-position: center;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/170/What_we_do_footer_carousel2_397186feb8bd51bb37bc24fc2b9b500f.jpg");
+
+}
+
+.carouselImage6{
+    background-position: center;
+    background-image:url("https://dxaurk9yhilm4.cloudfront.net/images/6492/LM-Coco-Point-Barbuda-0266_397186feb8bd51bb37bc24fc2b9b500f.jpg");
+}
+
+.carouselImage7{
+    background-position: center;
+    background-image:url("https://dxaurk9yhilm4.cloudfront.net/images/188/driftwood-1_397186feb8bd51bb37bc24fc2b9b500f.jpg");
+}
+
+.carouselImage8{
+    background-position: center;
+    background-image:url("https://dxaurk9yhilm4.cloudfront.net/images/206/Grande-carousel_397186feb8bd51bb37bc24fc2b9b500f.jpg")
+}
+
+.carouselImage9{
+    background-position: center;
+    background-image:url("https://dxaurk9yhilm4.cloudfront.net/images/211/Summit-carousel_397186feb8bd51bb37bc24fc2b9b500f.jpg")
+}
+
+.carouselImage10{
+    background-position: center;
+    background-image:url("https://dxaurk9yhilm4.cloudfront.net/images/6894/IMG_00162-copy_397186feb8bd51bb37bc24fc2b9b500f.jpg")
+}
+
+.landsofDiscovery{
+    display: flex;
+    flex-direction: column;
+    height:60vh;
+    width:100vw;
+    /* border:2px solid red; */
+    background-color: #f3f3f3;
+}
+
+.landHead{
+    display: flex;
+    height:50%;
+    width:100%;
+    /* border:2px solid blue; */
+}
+.landHead1{
+    /* border:2px solid yellow; */
+    font-size: 3.5vw;
+    margin-left: 9%;
+}
+
+.landDes{
+    display: flex;
+    height: 35%;
+    width:100%;
+    margin-left: 9%;
+    /* border:2px solid green; */
+}
+
+.landDes1{
+    display: flex;
+    /* border:4px solid blue; */
+    font-size: 1.5vw;
+}
+
+.landPlace{
+    display: flex;
+    height:15%;
+    width:100%;
+    /* border:2px solid yellow; */
+}
+
+.landPlace1{
+    display: flex;
+    flex-direction:row;
+    /* border:2px solid brown; */
+    width:30%;
+    margin-left: 9%;
+    justify-content:space-between;
+    font-size:1.4vw;
+}
+
+.north{
+    text-decoration: underline;
+}
+
+.earth{
+    display: flex;
+    height:120vh;
+    width:100vw;
+    background-color: #f3f3f3;
+    /* border: 2px solid blue; */
+    flex-direction: row;
+    z-index: 1;
+    position: relative;
+}
+
+.earthImage{
+    display: flex;
+    height:100%;
+    width:70%;
+    /* border :2px solid red; */
+    background-position: center;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("https://discoverylandco.com/static/globe-usa.jpg");
+}
+
+.blackBox{
+    display: flex;
+    flex-direction:column;
+    height:70%;
+    width:55%;
+    left:45%;
+    top: 10%;
+    position: absolute;
+    z-index: 2;
+    /* border:2px solid green; */
+    background-color: #161f1e;
+}
+
+.far, .mph, .degrees{
+    color: white;
+    /* font-size: 1vw; */
+}
+
+.city{
+    color: white;
+}
+.placeName{
+    color: white;
+    font-size:2.3vw;
+}
+.latitude{
+    color: white;
+}
+.blackButton{
+    height:20%;
+    width:50%;
+    /* border:1px solid red; */
+    margin-left: 10%;
+}
+
+.temperature{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    height:20%;
+    width:50%;
+    /* border:1px solid red; */
+}
+
+.far, .mph, .degrees {
+    width:30%;
+    /* border:1px solid yellow; */
+}
+.city{
+    height:10%;
+    width:50%;
+    margin-left: 10%;
+    /* border:1px solid red; */
+}
+
+.placeName{
+    height:20%;
+    width:50%;
+    margin-left: 10%;
+    /* border:1px solid red; */
+}
+
+.latitude{
+    height:30%;
+    width:50%;
+    /* border:1px solid red; */
+    margin-left: 10%;
+}
+
+
+.blackImage{
+    /* display: flex; */
+    height:70%;
+    width:20%;
+    left:75%;
+    position: absolute;
+    object-fit: cover;
+    background-position: center;
+    z-index: 3;
+    /* border:2px solid yellow; */
+}
+carousel-inner{
+    /* border: 4px solid black; */
+    height:100%;
+    width:100%;
+}
+.child{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid blueviolet; */
+}
+
+
+.image1,.image2, .image3 {
+    display: flex;
+    height:100vh;
+    width:33.33vw;
+    /* border: 1px solid green; */
+}
+
+.image1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: xx-large;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/728/Expereinces_slider_190716_095517_464875650e0665072829219c2109f3b9.jpg");
+    background-position: center;
+}
+
+.image2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: xx-large;
+
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/729/lifestyle_slider_190716_095537_fc98236fcd7afd38ca0fd181cf61bcb6.jpg");
+    background-position: center;
+}
+.image3 {
+    color:white;
+    display: flex;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/730/wellness_slider_190716_095551_7a63ac04cea98219d28754079427d015.jpg");
+    background-position: center;
+}
+
+.footer-container{
+    display: flex;
+    /* align-content: center; */
+    flex-direction: row;
+    height: 63vh;
+    background-color: #000000;
+    color: white;
+    width:100vw;
+    /* border: 7px solid green; */
+}
+.logo2{
+    width: 50vw;
+}
+.section1{
+    display: flex;
+    /* border:5px solid blueviolet; */
+    width: 20%;
+    height:30%;
+    flex-direction: column;
+    justify-content:space-between;
+    margin-top: 5%;
+}
+
+.section2{
+    display: flex;
+    width: 20%;
+    height: 40%;
+    flex-direction: column;
+    /* border: 5px solid blueviolet; */
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 5%;
+    /* margin-left: 20%; */
+}
+.section3{
+    display: flex;
+    width: 20%;
+    height: 40%;
+    margin-top: 5%;
+    /* border: 5px solid blueviolet; */
+    flex-direction: column;
+    justify-content:space-between;
+    align-content: space-between;
+}
